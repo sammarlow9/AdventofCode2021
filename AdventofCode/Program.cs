@@ -119,7 +119,7 @@ namespace AdventofCode
                     iHoriz = iHoriz + int.Parse(cInstruction[1]);
                     iDepth = iDepth + (iAim * int.Parse(cInstruction[1]));
                 }
-
+                 
                 iPos++;
 
             } while (values[iPos] != "");
